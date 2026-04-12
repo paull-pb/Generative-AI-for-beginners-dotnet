@@ -275,9 +275,11 @@ az account set --subscription "<subscription-id>"
 
 Then re-run `./setup.ps1`.
 
-### Region not available for Azure OpenAI
+### Region not available or models not available in your region
 
-Check [available regions](https://learn.microsoft.com/azure/ai-services/openai/concepts/models?WT.mc_id=academic-105485-koreyst) and try East US 2, West US 2, or North Europe.
+Azure OpenAI models are not available in all regions. Check the [official model availability page](https://learn.microsoft.com/azure/ai-services/openai/concepts/models) to see which models are available in your region. Try East US 2, West US 2, or North Europe if your region doesn't have the models you need.
+
+**If no Azure regions work for you:** Use [Ollama for local model execution](./setup-local-ollama.md) instead — it runs AI models on your machine without requiring Azure resources.
 
 ### Quota exceeded (429 errors)
 

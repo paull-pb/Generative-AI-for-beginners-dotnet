@@ -62,7 +62,7 @@ Key concepts:
 - **Context Window**: The amount of text an LLM can "see" at one time. Larger context windows let you include more information in your prompts.
 - **Temperature**: A setting that controls randomness. Lower temperature (0.0-0.3) gives more predictable, focused responses. Higher temperature (0.7-1.0) gives more creative, varied responses.
 
-> **Learn more:** [Understanding tokens in Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/tokens) explains token limits, pricing, and how to count tokens.
+> **Learn more:** [Key concepts and considerations in generative AI](https://learn.microsoft.com/azure/developer/ai/gen-ai-concepts-considerations-developers) covers token limits, pricing, context windows, and other essential AI concepts.
 
 ### Ok, how It's Different from Traditional Programming?
 
